@@ -7,7 +7,7 @@ include "view-header.php";
 echo getDisplay();
 include "view-footer.php";
 
-function get Display() {
+function getDisplay() {
 if (isset($_POST['my-name'])) {
   return "<p>The value sent is: </p>" . $_POST['my-name'];
 } else {
